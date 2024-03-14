@@ -1,4 +1,4 @@
-const ApexCharts = require('apexcharts');
+import ApexCharts from "apexcharts";
 let apexChart = {
     "container": document.querySelector("#chart"),
     'init': (args) => {

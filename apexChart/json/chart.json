@@ -1,0 +1,29 @@
+{
+    "deviceChart": [
+        {
+            "name": "device 1",
+            "data": [
+                {
+                    "date": "Feb 2,2024",
+                    "working": 10
+                },
+                {
+                    "date": "Feb 3,2024",
+                    "working": 7
+                },
+                {
+                    "date": "Feb 4,2024",
+                    "working": 14
+                },
+                {
+                    "date": "Feb 5,2024",
+                    "working": 10
+                },
+                {
+                    "date": "Feb 6,2024",
+                    "working": 12
+                }
+            ]
+        }
+    ]
+}

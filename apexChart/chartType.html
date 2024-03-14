@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex chart</title>
+</head>
+<style>
+    .conavasDivv {
+        width: 80%;
+        margin: auto;
+    }
+
+    .active {
+        background-color: blue;
+        color: wheat;
+    }
+</style>
+
+<body>
+
+    <div>
+        <h1>Line chart Types</h1>
+    </div>
+    <div>
+        <h1>Basic Line chart</h1>
+    </div>
+    <div id="basicLineChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Line Data label chart</h1>
+    </div>
+    <div id="lineDatalabelchart" style="height: 5px !important;"></div>
+
+
+    <div>
+        <h1>Syncronise chart</h1>
+    </div>
+    <div id="SyncroniseChartOne" style="height: 5px !important;"></div>
+    <div id="SyncroniseChartTwo" style="height: 5px !important;"></div>
+    <div>
+        <h1>Brush chart</h1>
+    </div>
+    <div id="brushChartOne" style="height: 5px !important;"></div>
+    <div id="brushChartTwo" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Stepline chart</h1>
+    </div>
+    <div id="SteplineChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Missing Null chart</h1>
+    </div>
+    <div id="missingNullChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Area chart</h1>
+    </div>
+    <div id="areaChart" style="height: 5px !important;"></div>
+
+
+    <div>
+        <h1>Spiline Area chart</h1>
+    </div>
+    <div id="spilineAreaChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Datetime Area chart</h1>
+    </div>
+    <button class="active" id="one_month">One Month</button>
+    <button id="six_months"> Six Months</button>
+    <button id="one_year">One year</button>
+    <button id="all">All</button>
+    <div id="dateTimeAreaChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Negative Area chart</h1>
+    </div>
+    <div id="negativeAreaChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Column chart Negative</h1>
+    </div>
+    <div id="columnChartNegative" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Column chart</h1>
+    </div>
+    <div id="columnChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Data labels chart</h1>
+    </div>
+    <div id="columnChartdataLabel" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Stacked columns chart</h1>
+    </div>
+    <div id="stackedColumnChrat" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Group columns chart</h1>
+    </div>
+    <div id="groupColumnChrat" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Dumbell columns chart</h1>
+    </div>
+    <div id="dumbellColoumnChart" style="height: 5px !important;"></div><br>
+    <div>
+
+    </div>
+
+    <div id="columnWithMarker" style="height: 5px !important;"></div>
+    <div>
+        <h1>Column with markers chart above</h1>
+    </div>
+
+    <div>
+        <h1>Bar Chart</h1>
+    </div>
+    <div id="barChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Bar Chart Stacked</h1>
+    </div>
+    <div id="barChartStacked" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Bar Chart Stacked Percentage</h1>
+    </div>
+    <div id="barChartStackedPercentage" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Bar Chart Patterned</h1>
+    </div>
+    <div id="barChartStackedPattern" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>mixed chart </h1>
+    </div>
+    <div id="mixedChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Area column chart </h1>
+    </div>
+    <div id="areaColumnChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Range Area chart </h1>
+    </div>
+    <div id="rangeAreaChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Timeline chart </h1>
+    </div>
+    <div id="timeLineChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Multi Series chart </h1>
+    </div>
+    <div id="multiSeriesChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Funnel chart </h1>
+    </div>
+    <div id="funnelChart" style="height: 5px !important;"></div>
+
+
+    <div>
+        <h1>candlestick chart </h1>
+    </div>
+    <div id="candlestickChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Pie chart </h1>
+    </div>
+    <div id="pieChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Donut chart </h1>
+    </div>
+    <div id="donut" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Semi Donut chart </h1>
+    </div>
+    <div id="semiDonut" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Pattern Donut chart </h1>
+    </div>
+    <div id="patternDonut" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Box Plot chart </h1>
+    </div>
+    <div id="boxPlotChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Box Plot chart scatter </h1>
+    </div>
+    <div id="boxPlotScatterChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Box Plot chart scatter </h1>
+    </div>
+    <div id="boxPlotHorizontalChart" style="height: 5px !important;"></div>
+
+
+    <div>
+        <h1>Buuble chart </h1>
+    </div>
+    <div id="bubbleChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>Scatter chart </h1>
+    </div>
+    <div id="scatterChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>HeatMap Chart </h1>
+    </div>
+    <div id="heatMapChart" style="height: 5px !important;"></div>
+
+    <div>
+        <h1>treemap Chart </h1>
+    </div>
+    <div id="treeMapChart" style="height: 5px !important;"></div>
+    <script src="./config/config.js"></script>
+    <script src="./plugin/jquery.min.js"></script>
+    <script src="./plugin/mqtt.min.js"></script>
+    <script src="./utils/utils.js"></script>
+    <script src="./services/mqtt-client.js"></script>
+    <script src="plugin/apexChart.min.js"></script>
+    <script src="./plugin/chart.min.js"></script>
+    <script src="./services/apexChart.js"></script>
+    <script src="./services/chartJs.js"></script>
+    <script src="./chartType.js"></script>
+</body>
+
+</html>

@@ -52,5 +52,3 @@ let apexChart = {
         chart.updateSeries(updateData)
     }
 }
-
-export default apexChart;

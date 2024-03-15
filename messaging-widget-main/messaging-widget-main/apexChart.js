@@ -61,6 +61,9 @@ let chartOptions = {
             data: [
                 {
                     x: '21', y: '34'
+                },
+                {
+                    x: '42', y: '12'
                 }
             ]
         }

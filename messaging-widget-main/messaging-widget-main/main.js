@@ -159,7 +159,4 @@ class MessageWidget {
 function initializeWidget() {
   return new MessageWidget();
 }
-
-var initializeWidget = new MessageWidget()
-initializeWidget.getValue();
 initializeWidget();

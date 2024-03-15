@@ -1,4 +1,4 @@
-import * as ApexCharts from 'apexchartss';
+import ApexCharts from 'apexcharts';
 export default {
     "container": document.querySelector("#chart"),
     'init': (args) => {

@@ -1,4 +1,4 @@
-import ApexCharts from './apexcharts/dist/apexcharts.min.js';
+import * as ApexCharts from 'apexcharts';
 let apexChart = {
     "container": document.querySelector("#chart"),
     'init': (args) => {

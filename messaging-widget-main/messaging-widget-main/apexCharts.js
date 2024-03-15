@@ -1,4 +1,4 @@
-import apexChart from "./apexChartPlugin";
+import apexChart from "./apexChartPlugin.js";
 let initApexChart = function () {
     // Create a new div element
     var newDiv = document.createElement("div");

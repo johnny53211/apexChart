@@ -11,9 +11,6 @@ class MessageWidget {
   position = "";
   open = false;
   widgetContainer = null;
-  getValue() {
-    console.log('jello');
-  }
 
   getPosition(position) {
     const [vertical, horizontal] = position.split("-");

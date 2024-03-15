@@ -1,5 +1,5 @@
 import ApexCharts from 'apexcharts';
-export default {
+let apexChart = {
     "container": document.querySelector("#chart"),
     'init': (args) => {
         let container = args.container || apexChart.container;
@@ -52,5 +52,7 @@ export default {
         chart.updateSeries(updateData)
     }
 }
+
+export default apexChart;
 
 
